@@ -66,7 +66,7 @@ The new version of the app must meet the following thecn specs:
 
 ## The Skills Test
 
-Please write your answers in a Markdown file in a secret GitHub gist. Send us the link when you’re ready for us to review your work.
+Please write your answers in a Markdown file in a secret [GitHub gist](https://gist.github.com/). Send us the link when you’re ready for us to review your work.
 
 ### Q1. Project Dependencies
 
