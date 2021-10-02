@@ -4,7 +4,7 @@
 <h1 align="center">Welcome to the Appsweet skills test! 👋</h1>
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#about-appsweet)
+[](#about-appsweet)
 
 ## About Appsweet
 
@@ -15,7 +15,7 @@ We’re specialists in development and engineering with over over 12 years of ex
 Visit our [GitHub](https://github.com/appsweet-co) page to see our open source projects.
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#about-this-test)
+[](#about-this-test)
 
 ## About This Test
 
@@ -24,7 +24,7 @@ This skills test is made up of 11 questions. These questions simulate real-world
 This is an “open book” test. There are many ways to solve these challenges. Please use all the tools and resources you would use for a real project. Ask us questions. Read our [Handbook](https://dperuo.gitbook.io/appsweet-handbook). View our [GitHub](https://github.com/appsweet-co) page.
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#project-brief)
+[](#project-brief)
 
 ## Project Brief
 
@@ -76,7 +76,7 @@ The new version of the app must meet the following thecn specs:
 1. Must be easy to localize for the target markets.
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#the-skills-test)
+[](#the-skills-test)
 
 ## The Skills Test
 
@@ -223,7 +223,7 @@ The client want the new app to notify users if they haven’t opened the app in 
 
 <!--
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#updating-this-readme)
+[](#updating-this-readme)
 
 ## Updating This README
 
