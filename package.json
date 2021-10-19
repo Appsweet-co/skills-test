@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Welcome to the Appsweet skills test! 👋",
   "main": "README.md",
-  "scripts": {},
+  "scripts": {
+    "readme": "npx @appnest/readme generate"
+  },
   "author": "Appsweet.com <http://appsweet.co/>",
   "license": "Copyright"
 }
