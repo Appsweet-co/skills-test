@@ -125,7 +125,42 @@ private sync(type: Type, data: any): Abstract {
 1. **Why might we consider this code brittle?**
 1. **How would you make this code more robust?**
 
-### Q3. Broken CI Build
+### Q3. Custom Pipes
+
+You also found the following custom Angular Pipe:
+
+```ts
+export class ArticleFilterPipe implements PipeTransform {
+  public transform(articles: Article[], illnessTypes: IllnessType[], categories: Array<{ readonly uuid: string; readonly name: string; }>) {
+    if ((!illnessTypes || illnessTypes.length < 1) && (!categories || categories.length < 1)) {
+      return articles;
+    }
+
+    const normalizedFilters = this.normalizeFilterCodes(illnessTypes);
+
+    return articles.filter(article => {
+      if (
+        (categories.length > 0 && !Array.isArray(mobx.toJS(article.topicIds))) ||
+        (illnessTypes.length > 0 && !Array.isArray(mobx.toJS(article.illnessTypeCode)))
+      ) {
+        return false;
+      }
+
+      return (
+        (
+          (categories.length > 0 && article.topicIds.some(topic => categories.some(category => category.uuid === topic))) ||
+          (illnessTypes.length > 0 && article.illnessTypeCode.some(illnessTypeCode => normalizedFilters.some(filter => filter === illnessTypeCode)))
+        )
+      );
+    });
+  }
+}
+```
+
+1. **Why might we consider this code brittle?**
+1. **How would you make this code more robust?**
+
+### Q4. Broken CI Build
 
 The client uses GitHub Actions as part of their automated build and deployment pipeline. You see the following error message on a failed build:
 
@@ -139,20 +174,20 @@ Execution failed for task ':app:processDebugResources'.
 1. **What’s the most likely cause of this error?**
 1. **How might you fix it?**
 
-### Q4. Hardware Support
+### Q5. Hardware Support
 
 The client says the new app must support the iPhone 5s for the Phase Two release.
 
 1. **What do we need to keep in mind when supporting this hardware?**
 
-### Q5. Data Encryption
+### Q6. Data Encryption
 
 The client says the new version must encrypt all its data. The app stores data locally on the device.
 
 1. **What data encryption options do we have?**
 1. **Which option is our best choice? Why?**
 
-### Q6. Custom Stylesheet
+### Q7. Custom Stylesheet
 
 You discover the following Sass file while refactoring the Dashboard page:
 
@@ -186,35 +221,35 @@ dashboard-page {
 1. **Why might we consider this code brittle?**
 1. **How would you make this code more robust?**
 
-### Q7. UX Design
+### Q8. UX Design
 
 The current app makes users confirm certain actions (like deleting content) using alert dialogs. The client thinks switching to an ”undo“ feature might make for a better user experience.
 
 1. **What are the benefits and tradeoffs of each type of UX?**
 1. **How might you build an “undo” feature for the new version of the app?**
 
-### Q8. Bluetooth Hardware
+### Q9. Bluetooth Hardware
 
 The client wants the new version of the app to sync with Bluetooth hardware like Fitbit and Google Fit. 
 
 1. **What are three common issues mobile apps run into when syncing with Bluetooth hardware?**
 1. **How might we mitigate these risks in our app?**
 
-### Q9. Market Customization
+### Q10. Market Customization
 
 The client says the app must have a password screen for the Argentina and Egypt  markets. Other markets don’t need a password screen for the app.
 
 1. **What options do we have for adding an app password screen for the Argentina and Egypt markets only?**
 1. **Which option is our best choice? Why?**
 
-### Q10. Analytics
+### Q11. Analytics
 
 The client wants better analytics in the new version of the app. The client already use Adobe Analytics to track button clicks and page views. The client wants to continue using Adobe Analytics.
 
 1. **What do we need to keep in mind when collecting better analytics data?**
 1. **How might you build a more robust analytics tracking feature in the app?**
 
-### Q11. User Notifications
+### Q12. User Notifications
 
 The client want the new app to notify users if they haven’t opened the app in the last 10 days. Notification must happen even when the app is closed.
 
@@ -228,6 +263,4 @@ The client want the new app to notify users if they haven’t opened the app in 
 ## Updating This README
 
 We generate this README with the [@appnest/readme](https://github.com/andreasbm/readme) tool.
-
-Run `npx @appnest/readme generate` or `npm run readme` to update this file.
 -->
