@@ -160,7 +160,14 @@ export class ArticleFilterPipe implements PipeTransform {
 1. **Why might we consider this code brittle?**
 1. **How would you make this code more robust?**
 
-### Q4. Broken CI Build
+### Q4. App Performance
+
+You load the app onto a real iPhone and Android device. The app feels sluggish and unresponsive on first launch.
+
+1. **What might cause the app to feel slow?**
+1. **How might you confirm your theory?**
+
+### Q5. Broken CI Build
 
 The client uses GitHub Actions as part of their automated build and deployment pipeline. You see the following error message on a failed build:
 
@@ -174,20 +181,20 @@ Execution failed for task ':app:processDebugResources'.
 1. **What’s the most likely cause of this error?**
 1. **How might you fix it?**
 
-### Q5. Hardware Support
+### Q6. Hardware Support
 
 The client says the new app must support the iPhone 5s for the Phase Two release.
 
 1. **What do we need to keep in mind when supporting this hardware?**
 
-### Q6. Data Encryption
+### Q7. Data Encryption
 
 The client says the new version must encrypt all its data. The app stores data locally on the device.
 
 1. **What data encryption options do we have?**
 1. **Which option is our best choice? Why?**
 
-### Q7. Custom Stylesheet
+### Q8. Custom Stylesheet
 
 You discover the following Sass file while refactoring the Dashboard page:
 
@@ -221,35 +228,35 @@ dashboard-page {
 1. **Why might we consider this code brittle?**
 1. **How would you make this code more robust?**
 
-### Q8. UX Design
+### Q9. UX Design
 
 The current app makes users confirm certain actions (like deleting content) using alert dialogs. The client thinks switching to an ”undo“ feature might make for a better user experience.
 
 1. **What are the benefits and tradeoffs of each type of UX?**
 1. **How might you build an “undo” feature for the new version of the app?**
 
-### Q9. Bluetooth Hardware
+### Q10. Bluetooth Hardware
 
 The client wants the new version of the app to sync with Bluetooth hardware like Fitbit and Google Fit. 
 
 1. **What are three common issues mobile apps run into when syncing with Bluetooth hardware?**
 1. **How might we mitigate these risks in our app?**
 
-### Q10. Market Customization
+### Q11. Market Customization
 
 The client says the app must have a password screen for the Argentina and Egypt  markets. Other markets don’t need a password screen for the app.
 
 1. **What options do we have for adding an app password screen for the Argentina and Egypt markets only?**
 1. **Which option is our best choice? Why?**
 
-### Q11. Analytics
+### Q12. Analytics
 
 The client wants better analytics in the new version of the app. The client already use Adobe Analytics to track button clicks and page views. The client wants to continue using Adobe Analytics.
 
 1. **What do we need to keep in mind when collecting better analytics data?**
 1. **How might you build a more robust analytics tracking feature in the app?**
 
-### Q12. User Notifications
+### Q13. User Notifications
 
 The client want the new app to notify users if they haven’t opened the app in the last 10 days. Notification must happen even when the app is closed.
 
