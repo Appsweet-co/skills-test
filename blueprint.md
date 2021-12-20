@@ -1,7 +1,6 @@
 {{ template:logo }}
-{{ template:title }}
 
-## About Appsweet
+## Hi There! :wave:
 
 Appsweet solves complex challenges for mobile apps. These apps are built on frameworks like Angular and Ionic. Past clients include pharmaceutical companies, sports leagues, and news outlets. 
 

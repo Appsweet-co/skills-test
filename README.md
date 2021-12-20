@@ -1,12 +1,11 @@
 <!-- ⚠️ This README has been generated from the file(s) "blueprint.md" ⚠️--><p align="center">
   <img src="assets/readme/logo.png" alt="Logo" width="250" height="auto" />
 </p>
-<h1 align="center">Welcome to the Appsweet skills test! 👋</h1>
 
 
-[](#about-appsweet)
+[](#hi-there-wave)
 
-## About Appsweet
+## Hi There! :wave:
 
 Appsweet solves complex challenges for mobile apps. These apps are built on frameworks like Angular and Ionic. Past clients include pharmaceutical companies, sports leagues, and news outlets. 
 
