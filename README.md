@@ -23,6 +23,8 @@ This skills test is made up of 11 questions. These questions simulate real-world
 
 This is an “open book” test. There are many ways to solve these challenges. Please use all the tools and resources you would use for a real project. Ask us questions. Read our [Handbook](https://dperuo.gitbook.io/appsweet-handbook). View our [GitHub](https://github.com/appsweet-co) page.
 
+Please submit your answers in a Markdown file hosted in a private GitHub Gist.
+
 
 [](#project-brief)
 
