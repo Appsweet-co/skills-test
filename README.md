@@ -77,9 +77,9 @@ Write your answers in a Markdown file in a secret [GitHub Gist](https://gist.git
 
 You looked at the codebase and saw that the app was built using Ionic v6 and Angular v12.
 
-1. **What’s the cost-benefit analysis for the client if we upgrade to Ionic v6 and Angular v18?**
+1. **What’s the cost-benefit analysis for the client if we upgrade to Ionic v6 and Angular v15?**
 1. **What are three major changes between Ionic v6 and v8 we need to keep in mind while doing the upgrade?**
-1. **What are three major changes between Angular v12 and v18 we need to keep in mind while doing the upgrade?**
+1. **What are three major changes between Angular v15 and v18 we need to keep in mind while doing the upgrade?**
 
 ### Q2. Custom Providers
 
