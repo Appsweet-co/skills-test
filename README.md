@@ -75,9 +75,9 @@ Write your answers in a Markdown file in a secret [GitHub Gist](https://gist.git
 
 ### Q1. Project Dependencies
 
-You looked at the codebase and saw that the app was built using Ionic v6 and Angular v12.
+You looked at the codebase and saw that the app was built using Ionic v6 and Angular v15.
 
-1. **What’s the cost-benefit analysis for the client if we upgrade to Ionic v6 and Angular v15?**
+1. **What’s the cost-benefit analysis for the client if we upgrade to Ionic v8 and Angular v18?**
 1. **What are three major changes between Ionic v6 and v8 we need to keep in mind while doing the upgrade?**
 1. **What are three major changes between Angular v15 and v18 we need to keep in mind while doing the upgrade?**
 
