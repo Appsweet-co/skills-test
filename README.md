@@ -1,31 +1,22 @@
-<!-- ⚠️ This README has been generated from the file(s) "blueprint.md" ⚠️--><p align="center">
-  <img src="assets/readme/logo.png" alt="Logo" width="250" height="auto" />
+<p align="center">
+  <img src="assets/logo.png" alt="Logo" width="250" height="auto" />
 </p>
-
-
-[](#hi-there-wave)
 
 ## Hi There! :wave:
 
-Appsweet solves complex challenges for mobile apps. These apps are built on frameworks like Angular and Ionic. Past clients include pharmaceutical companies, sports leagues, and news outlets. 
+Appsweet solves complex challenges for mobile apps. These apps are built on frameworks like Angular and Ionic. Past clients include pharmaceutical companies, sports leagues, and news outlets.
 
 We’re specialists in development and engineering with over over 12 years of experience. We write the code and that turns wireframes into working applications. We work inside and alongside our clients’ existing teams. Our apps meet industry standards for security and usability.
 
 Visit our [GitHub](https://github.com/appsweet-co) page to see our open source projects.
 
-
-[](#about-this-test)
-
 ## About This Test
 
 This skills test is made up of 11 questions. These questions simulate real-world challenges. It lets us show you the types of things we solve for our clients, and lets you show us your creativity and style.
 
-This is an “open book” test. There are many ways to solve these challenges. Please use all the tools and resources you would use for a real project. Ask us questions. Read our [Handbook](https://dperuo.gitbook.io/appsweet-handbook). View our [GitHub](https://github.com/appsweet-co) page.
+This is an “open book” test. There are many ways to solve these challenges. Please use all the tools and resources you would use for a real project. Ask us questions. Read our [Handbook](https://github.com/Appsweet-co/Appsweet-co/blob/main/HANDBOOK.md), view our [Coding Standards](https://github.com/Appsweet-co/Appsweet-co/blob/main/CODING_STANDARDS.md).
 
-Please submit your answers in a Markdown file hosted in a private GitHub Gist.
-
-
-[](#project-brief)
+Submit your answers in a Markdown file hosted as a private GitHub Gist.
 
 ## Project Brief
 
@@ -67,29 +58,28 @@ The new version of the app must meet the following thecn specs:
 
 1. Minimum OS versions:
 
-    - iOS v13.x
-    - Android v6.x
+    - iOS v15.x
+    - Android SDK 33
 
 1. Must support Dark Mode.
 
 1. Must follow all industry best practice for security and accessibility.
 
-1. Must be easy to localize for the target markets.
+1. Must follow our internal [Coding Standards](https://github.com/Appsweet-co/Appsweet-co/blob/main/CODING_STANDARDS.md).
 
-
-[](#the-skills-test)
+1. Must be easy to localize and pluralize for the target markets.
 
 ## The Skills Test
 
-Please write your answers in a Markdown file in a secret [GitHub gist](https://gist.github.com/). Send us the link when you’re ready for us to review your work.
+Write your answers in a Markdown file in a secret [GitHub Gist](https://gist.github.com/). Send us the link when you’re ready for us to review your work.
 
 ### Q1. Project Dependencies
 
-You looked at the codebase and saw that the app was built using Ionic v3 and Angular v5.
+You looked at the codebase and saw that the app was built using Ionic v6 and Angular v12.
 
-1. **What’s the cost-benefit analysis for the client if we upgrade to Ionic v5 and Angular v12?**
-1. **What are three major changes between Ionic v3 and v5 we need to keep in mind while doing the upgrade?**
-1. **What are three major changes between Angular v5 and v12 we need to keep in mind while doing the upgrade?**
+1. **What’s the cost-benefit analysis for the client if we upgrade to Ionic v6 and Angular v18?**
+1. **What are three major changes between Ionic v6 and v8 we need to keep in mind while doing the upgrade?**
+1. **What are three major changes between Angular v12 and v18 we need to keep in mind while doing the upgrade?**
 
 ### Q2. Custom Providers
 
@@ -184,7 +174,7 @@ Execution failed for task ':app:processDebugResources'.
 
 ### Q6. Hardware Support
 
-The client says the new app must support the iPhone 5s for the Phase Two release.
+The client says the new app must support the iPhone SE for the Phase Two release.
 
 1. **What do we need to keep in mind when supporting this hardware?**
 
@@ -238,14 +228,14 @@ The current app makes users confirm certain actions (like deleting content) usin
 
 ### Q10. Bluetooth Hardware
 
-The client wants the new version of the app to sync with Bluetooth hardware like Fitbit and Google Fit. 
+The client wants the new version of the app to sync with Bluetooth hardware like Fitbit and Google Fit.
 
 1. **What are three common issues mobile apps run into when syncing with Bluetooth hardware?**
 1. **How might we mitigate these risks in our app?**
 
 ### Q11. Market Customization
 
-The client says the app must have a password screen for the Argentina and Egypt  markets. Other markets don’t need a password screen for the app.
+The client says the app must have a password screen for the Argentina and Egypt markets. Other markets don’t need a password screen for the app.
 
 1. **What options do we have for adding an app password screen for the Argentina and Egypt markets only?**
 1. **Which option is our best choice? Why?**
@@ -263,12 +253,3 @@ The client want the new app to notify users if they haven’t opened the app in 
 
 1. **What options do we have for adding notifications?**
 1. **Which option is our best choice? Why?**
-
-<!--
-
-[](#updating-this-readme)
-
-## Updating This README
-
-We generate this README with the [@appnest/readme](https://github.com/andreasbm/readme) tool.
--->
